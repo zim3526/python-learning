@@ -1,0 +1,26 @@
+# ===== Python 相关 =====
+# 虚拟环境：几百 MB，绝对不能提交
+.venv/
+venv/
+env/
+
+# Python 自动生成的缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# ===== 安全：绝对不能提交 =====
+# 存放 API Key / 密码的文件（泄露会被盗刷）
+.env
+.env.local
+*.key
+
+# ===== 编辑器 / 系统 =====
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ===== 日志和临时文件 =====
+*.log
+*.tmp
