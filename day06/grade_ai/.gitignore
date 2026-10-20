@@ -1,0 +1,13 @@
+# ===== 安全：绝对不能提交 =====
+.env
+.env.local
+*.key
+
+# ===== Python =====
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# ===== 日志 =====
+*.log
